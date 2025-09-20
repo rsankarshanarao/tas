@@ -30,8 +30,8 @@ export const Hero = () => {
           </p>
 
           {/* Description */}
-          <p className="text-lg text-white/70 mb-12 max-w-xl mx-auto">We're putting the finishing touches on something extraordinary. 
-Follow US at 'https://www.instagram.com/_itihasa_' for further updates.</p>
+          <p className="text-lg text-white/70 mb-12 max-w-xl mx-auto">We're putting the finishing touches on something extraordinary. 
+            <br />Follow US at 'https://www.instagram.com/_itihasa_' for further updates.</p>
 
           {/* Email Capture */}
           <EmailCapture />
