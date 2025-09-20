@@ -31,7 +31,7 @@ export const Hero = () => {
 
           {/* Description */}
           <p className="text-lg text-white/70 mb-12 max-w-xl mx-auto">We're putting the finishing touches on something extraordinary. 
-            <br />Follow us at 'https://www.instagram.com/_itihasa_' for further updates.</p>
+            <br />Follow us at <a href="https://www.instagram.com/_itihasa_" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold/80 transition-colors underline">'@_itihasa_'</a> for further updates.</p>
 
           {/* Email Capture */}
           <EmailCapture />
