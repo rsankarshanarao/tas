@@ -1,16 +1,10 @@
 import { EmailCapture } from "./EmailCapture";
 import heroImage from "@/assets/hero-apparel.jpg";
-
 export const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Premium custom apparel and gifts" 
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Premium custom apparel and gifts" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-br from-primary/80 via-primary/60 to-primary/40" />
       </div>
 
@@ -36,10 +30,11 @@ export const Hero = () => {
           </p>
 
           {/* Description */}
-          <p className="text-lg text-white/70 mb-12 max-w-xl mx-auto">
-            We're putting the finishing touches on something extraordinary. 
-            Join our exclusive list for early access.
-          </p>
+          <p className="text-lg text-white/70 mb-12 max-w-xl mx-auto">We're putting the finishing touches on something extraordinary. 
+Follow US at 
+ for further updates.
+
+        </p>
 
           {/* Email Capture */}
           <EmailCapture />
@@ -56,6 +51,5 @@ export const Hero = () => {
       {/* Decorative Elements */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-gold/20 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-40 h-40 bg-white/10 rounded-full blur-3xl" />
-    </section>
-  );
+    </section>;
 };
