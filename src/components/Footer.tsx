@@ -3,7 +3,7 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <div className="mb-6">
-            <h3 className="font-bold mb-2 text-xl">THE ------ -----</h3>
+            <h3 className="font-bold mb-2 text-xl">THE AVATAR STORE</h3>
             <h5 className="font-semibold mb-3 text-lg text-accent">A VENTURE BY ITIHASA</h5>
             <p className="text-primary-foreground/70">
               Crafting stories through premium apparel and gifts
