@@ -12,9 +12,12 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
           {/* Venture Badge */}
-          <div className="inline-flex items-center px-6 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
-            <span className="text-gold font-semibold tracking-wide text-sm uppercase">
-              A Venture by Itihasa
+          <div className="inline-flex flex-col items-center px-8 py-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
+            <span className="text-gold font-bold tracking-wider text-lg uppercase">
+              THE AVATAR STORE
+            </span>
+            <span className="text-white/90 font-semibold tracking-wide text-xs uppercase mt-1">
+              A Venture by ITIHASA
             </span>
           </div>
 
