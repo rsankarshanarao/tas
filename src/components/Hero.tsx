@@ -13,7 +13,7 @@ export const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Venture Badge */}
           <div className="inline-flex flex-col items-center px-8 py-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8">
-            <span className="text-gold font-bold tracking-wider text-lg uppercase">
+            <span className="text-gold font-bold tracking-wider text-2xl uppercase">
               THE AVATAR STORE
             </span>
             <span className="text-white/90 font-semibold tracking-wide text-xs uppercase mt-1">
