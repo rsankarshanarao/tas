@@ -42,13 +42,45 @@ export const Features = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {features.map((feature, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {/* First two features */}
+          {features.slice(0, 2).map((feature, index) => (
             <div 
               key={index}
-              className={`text-center p-8 rounded-2xl bg-card hover:shadow-elegant transition-all duration-300 group ${
-                index === 4 ? 'lg:col-start-2 lg:col-span-2' : ''
-              }`}
+              className="text-center p-8 rounded-2xl bg-card hover:shadow-elegant transition-all duration-300 group"
+            >
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gold/10 text-gold mb-6 group-hover:scale-110 transition-transform duration-300">
+                {feature.icon}
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">
+                {feature.title}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {feature.description}
+              </p>
+            </div>
+          ))}
+          
+          {/* Center feature - Sustainable */}
+          <div className="md:col-span-2 flex justify-center">
+            <div className="text-center p-8 rounded-2xl bg-card hover:shadow-elegant transition-all duration-300 group max-w-md w-full">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gold/10 text-gold mb-6 group-hover:scale-110 transition-transform duration-300">
+                {features[4].icon}
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">
+                {features[4].title}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {features[4].description}
+              </p>
+            </div>
+          </div>
+          
+          {/* Last two features */}
+          {features.slice(2, 4).map((feature, index) => (
+            <div 
+              key={index + 2}
+              className="text-center p-8 rounded-2xl bg-card hover:shadow-elegant transition-all duration-300 group"
             >
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gold/10 text-gold mb-6 group-hover:scale-110 transition-transform duration-300">
                 {feature.icon}
