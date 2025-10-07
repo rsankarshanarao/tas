@@ -16,9 +16,6 @@ export const Hero = () => {
             <span className="text-gold font-bold tracking-wider text-2xl sm:text-3xl md:text-4xl uppercase">
               THE AVATAR STORE
             </span>
-            <span className="text-white/90 font-semibold tracking-wide text-[10px] sm:text-xs uppercase mt-1">
-              A Venture by ITIHASA
-            </span>
           </div>
 
           {/* Main Headline */}
