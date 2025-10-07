@@ -24,7 +24,7 @@ const features = [
   {
     icon: <Leaf className="w-8 h-8" />,
     title: "Sustainable and Eco Friendly",
-    description: "Environmentally friendly products"
+    description: "Responsibly sourced items that minimize environmental impact and promote a greener way of living."
   }
 ];
 
