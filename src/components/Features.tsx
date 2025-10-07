@@ -24,7 +24,7 @@ const features = [
   {
     icon: <Leaf className="w-8 h-8" />,
     title: "Sustainable and Eco Friendly",
-    description: "Ethically sourced materials and environmentally conscious production practices"
+    description: "Environmentally friendly products"
   }
 ];
 
@@ -46,7 +46,9 @@ export const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="text-center p-8 rounded-2xl bg-card hover:shadow-elegant transition-all duration-300 group"
+              className={`text-center p-8 rounded-2xl bg-card hover:shadow-elegant transition-all duration-300 group ${
+                index === 4 ? 'lg:col-start-2 lg:col-span-2' : ''
+              }`}
             >
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gold/10 text-gold mb-6 group-hover:scale-110 transition-transform duration-300">
                 {feature.icon}
