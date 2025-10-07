@@ -1,4 +1,4 @@
-import { Shirt, Gift, Palette, Heart } from "lucide-react";
+import { Shirt, Gift, Palette, Heart, Leaf } from "lucide-react";
 
 const features = [
   {
@@ -20,6 +20,11 @@ const features = [
     icon: <Heart className="w-8 h-8" />,
     title: "Made with Purpose",
     description: "Every piece tells a story and supports meaningful causes"
+  },
+  {
+    icon: <Leaf className="w-8 h-8" />,
+    title: "Sustainable and Eco Friendly",
+    description: "Ethically sourced materials and environmentally conscious production practices"
   }
 ];
 
